@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import CurrencyContext from '../hooks/CurrencyContext';
 import { ModalContext } from '../hooks/ModalContext';
-
 function CurrencySelector(props) {
     const currencies = useContext(CurrencyContext);
     const modal = useContext(ModalContext);

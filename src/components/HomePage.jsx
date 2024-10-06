@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import AmountInput from './AmountInput';
-import appLogo from '../assets/switch.svg'
+import appLogo from '../assets/switch.svg';
 import Modal from './Modal';
 import { ModalContext } from '../hooks/ModalContext';
+
 function HomePage() {
 
     const modal = useContext(ModalContext);

@@ -87,7 +87,7 @@ function Modal() {
                         <p>API Information unavailable at this moment</p> 
                         :
                         <div>
-                            <input className='w-full border-2 text-black border-gray-300 py-3 px-4 mb-8
+                            <input className='w-full border-2 text-black bg-white border-gray-300 py-3 px-4 mb-8
                              rounded-lg' type="text" placeholder='Search Here' value={query} onChange={(e)=>setQuery(e.target.value)} />
                             <div className='overflow-y-scroll frost-alt h-[90vh] max-h-[350px] sm:max-h-[50vh] py-9 p-4 rounded-lg'>
                                 {filteredData.length === 0 ? <p className='text-center'>Sorry, this currency is not supported</p> : (
