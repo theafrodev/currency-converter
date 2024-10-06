@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import CurrencySelector from './CurrencySelector'
-import CurrencyContext from '../hooks/CurrencyContext'
+import CurrencyContext from '../hooks/CurrencyContexts'
 import { fetchRates } from '../services/currencyService';
 
 
