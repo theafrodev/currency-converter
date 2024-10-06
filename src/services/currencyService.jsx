@@ -28,7 +28,7 @@ export const fetchRates = async ()=>{
             data = JSON.parse(localStorage.getItem("apiResponse"));
         } 
 
-        console.log(data);
+        //console.log(data);
         return data;
 
     }

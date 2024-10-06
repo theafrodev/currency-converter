@@ -1,6 +1,6 @@
 import './App.css'
 import HomePage from './components/HomePage';
-import { CurrencyProvider } from './hooks/currencyContext';
+import CurrencyProvider from './hooks/CurrencyContext';
 import ModalProvider from './hooks/ModalContext';
 
 
