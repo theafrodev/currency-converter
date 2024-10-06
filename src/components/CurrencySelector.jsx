@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import CurrencyContext from '../hooks/currencyContext';
+import CurrencyContext from '../hooks/CurrencyContext';
 import { ModalContext } from '../hooks/ModalContext';
 
 function CurrencySelector(props) {

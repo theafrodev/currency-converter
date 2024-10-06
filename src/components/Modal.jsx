@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { useState } from 'react';
 import { ModalContext } from '../hooks/ModalContext';
-import CurrencyContext from '../hooks/currencyContext';
+import CurrencyContext from '../hooks/CurrencyContext';
 import { fetchRates } from '../services/currencyService';
 
 function Modal() {
